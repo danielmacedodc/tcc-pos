@@ -117,7 +117,7 @@ def save_and_display_gradcam(img_path, heatmap, alpha=0.9, pred=None):
 
     # Use jet colormap to colorize heatmap
     if pred == 'malignant':
-        jet = cm.get_cmap("jet")
+        jet = cm.get_cmap("Greys")
     else:
         jet = cm.get_cmap("Greens")
 
